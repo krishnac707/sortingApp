@@ -1,0 +1,33 @@
+.all-product-div{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single-product-div{
+    width: 23%;
+    height: fit-content;
+    border: 1px solid ;
+    margin-bottom: 3%;
+}
+
+.image-div{
+    width: 100%;
+    padding: 2%;
+    height: fit-content;
+    /* height: 300px; */
+}
+
+.image-div>img{
+    width: 96%;
+    height: 300px;
+}
+
+.para-align{
+    width: 96%;
+    padding-left: 2%;
+    text-align: center;
+}
